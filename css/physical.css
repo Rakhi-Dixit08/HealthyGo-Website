@@ -1,0 +1,237 @@
+
+.navbar{
+width:100%;
+
+}
+.navbar-brand{
+font-family: 'Roboto';
+}
+
+#nav-heading{
+color:white;
+
+
+}
+#nav-heading:hover{
+font-size: 1.75rem;
+color:#4CAF50;
+
+}
+
+#nav-link{
+font-size:1.10rem ;
+color:white;
+
+}
+#nav-link:hover{
+font-size:1.25rem ;
+color:#43c1f3;
+}
+
+h4{
+    color:#1f8523;
+    text-decoration: underline;
+padding:1rem 0;
+}
+body{
+    font-family: 'Roboto';
+    color:#4CAF50;
+   margin: 0;
+    padding: 0;
+
+}
+
+header {
+    
+   width:100%;
+    background-color:#4CAF50;
+    color:black;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+
+nav a {
+ padding: 1rem;
+text-decoration: none;
+}
+
+
+
+
+main {
+
+padding-left: 2rem;
+padding-top:2rem ;
+padding-bottom:2rem;
+background-color:azure;
+}
+
+.content {
+flex:2;
+padding-right: 0.5rem;
+}
+
+.Sec-heading p{
+color:#06720a;
+font-size:1.25rem ;
+padding:0.5rem 0 ;
+
+}
+article p{
+color:#06720a;
+font-size:1.25rem ;
+padding:0.5rem 0 ;
+
+}
+
+ #h3{
+color:#0296d1;
+}
+.article-links {
+    text-decoration: none;
+    font-size:1.25rem; ;
+ 
+    }
+
+.article-links:hover{
+
+color:#14b7f8;
+
+}
+.article-links i{
+padding:0.75rem;
+
+}
+
+
+.sidebar {
+    flex-wrap: wrap;
+    flex: 1;
+    padding-left:2rem;
+    background-color:#9ef7b4;
+    padding-right:1rem;
+    border-left: 2px solid rgb(156, 156, 156);
+}
+
+
+/* Footer styling */
+.footer{
+display: flex;
+justify-content: center;
+ background-color: #4CAF50;
+width:100%;
+ height:18rem;
+}
+.foot h2 {
+    align-items: center;
+    margin-top: 1rem;
+    
+    padding:1rem;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 2.5rem;
+ }
+    
+ .icons{
+        display: flex;
+        justify-content: space-evenly;
+        margin:2rem 0;
+        
+ }
+        
+    .icons a{
+        color:#04090c;
+    }
+        
+ .icons i{
+        font-size: 2rem;
+        
+        
+}
+ .icons i:hover{
+        color: #43c1f3;
+        font-size: 2.5rem;
+     }
+        
+        
+.video-container{
+display: flex;
+justify-content: center;
+margin:2rem 0 ;
+
+}
+
+.yt-vid{
+border:10px solid#0296d1 ;
+
+}
+.exercise-img{
+    display: flex;
+    justify-content: center;
+align-content: center;
+
+
+}
+.exercise-img img{
+
+border-style: double;
+
+}
+
+.nutri-img{
+display: flex;
+justify-content: center;
+
+}
+.nutri-img img{
+ width:800;
+height:400;
+border:5px solid#010e13;
+}
+
+.tools-img{
+display: flex;
+justify-content: center;
+margin:2rem 0 ;
+
+
+}
+
+
+
+#bmiForm button{
+    background-color:rgb(252, 167, 9);
+    color: white;
+border-radius: 30px;
+    font-size: 1.25rem;;
+    border:2px solid rgb(100, 98, 98);
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    margin:0 2rem;
+}
+#bmiForm button:hover {
+background-color: rgb(243, 230, 48);
+font-size: 1.50rem;
+}
+
+article {
+    margin-bottom: 2rem;
+}
+
+
+
+article ul {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+}
+
+article ul li a {
+    color: #010e13;
+text-decoration: none;
+}
+
+ article ul li a:hover {
+    text-decoration: underline;
+} 
+

@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Stay Hydrated",
+        "description": "Drinking enough water is essential for maintaining your overall health. Aim for at least 8 glasses a day.",
+        "image": "images/tip1.jpg"
+    },
+    {
+        "title": "Eat Balanced Meals",
+        "description": "Include a variety of foods in your diet to ensure you get all the necessary nutrients.",
+        "image": "images/diet.jpg"
+    },
+    {
+        "title": "Exercise Regularly",
+        "description": "Regular physical activity helps improve your overall health and fitness. Aim for at least 30 minutes a day.",
+        "image": "images/phyimg.jpg"
+    },
+    {
+        "title": "Get Enough Sleep",
+        "description": "Adequate sleep is crucial for your body to repair and rejuvenate. Aim for 7-9 hours per night.",
+        "image": "images/sleep.jpg"
+    },
+    {
+        "title": "Practice Mindfulness",
+        "description": "Take time to relax and practice mindfulness techniques to reduce stress and improve mental health.",
+        "image": "images/mindfulness.jpg"
+    },
+    {
+        "title": "Avoid Smoking",
+        "description": "Avoid smoking and limit alcohol consumption to reduce the risk of chronic diseases.",
+        "image": "images/smoking.jpg"
+    }
+]
