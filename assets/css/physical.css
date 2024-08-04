@@ -1,6 +1,11 @@
-
 .navbar{
 width:100%;
+
+}
+
+#nav-toggle{
+border:solid rgb(77, 189, 77);
+margin-right:0.5rem ;
 
 }
 .navbar-brand{
@@ -158,7 +163,7 @@ width:100%;
 .video-container{
 display: flex;
 justify-content: center;
-margin:2rem 0 ;
+margin:2rem 1rem ;
 
 }
 
@@ -172,10 +177,13 @@ border:10px solid#0296d1 ;
 align-content: center;
 
 
+
 }
 .exercise-img img{
-
+ width:800px;  
+height:auto;
 border-style: double;
+margin:0 2rem;
 
 }
 
@@ -183,20 +191,62 @@ border-style: double;
 display: flex;
 justify-content: center;
 
+
 }
 .nutri-img img{
- width:800;
-height:400;
+width:600px;
+height:auto;
 border:5px solid#010e13;
+margin:0 2rem;
+
 }
 
 .tools-img{
-display: flex;
+display:flex;
 justify-content: center;
-margin:2rem 0 ;
+
+}
+.tools-img img{
+width:700px;
+height:auto;
+margin:0 2rem;
+
+}
+
+@media(max-width:520px){
+.exercise-img img{
+ width:400px;  
+ height:auto;
+ border-style: double;
+ margin:0 1rem;
+       
+       }
+       
+
+.nutri-img img{
+width:400px;
+height:auto;
+ border:5px solid#010e13;
+ margin:0 1rem;
+        
+        }
+
+.tools-img img{
+width:400px;
+ height:auto;
+ margin:0 1rem;
+        
+        }
+
+
+
+
 
 
 }
+
+
+
 
 
 
@@ -208,7 +258,7 @@ border-radius: 30px;
     border:2px solid rgb(100, 98, 98);
     padding: 0.5rem 2rem;
     cursor: pointer;
-    margin:0 2rem;
+    margin:1.5rem 2.5rem;
 }
 #bmiForm button:hover {
 background-color: rgb(243, 230, 48);
@@ -235,3 +285,29 @@ text-decoration: none;
     text-decoration: underline;
 } 
 
+
+#plane{
+display:inline-flex;
+margin:0;
+padding:0;
+     
+}
+
+
+#plane img:hover{
+width:70px ;
+background-color: #adebfd;
+border-radius: 10px;
+}
+#plane img{
+ width:60px;
+height:auto;
+
+} 
+@media(max-width:960px){
+ #plane img{
+/* padding-top:1rem ; */
+ padding: 0%;
+        
+}
+}

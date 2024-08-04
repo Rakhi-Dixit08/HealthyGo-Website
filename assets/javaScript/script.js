@@ -19,7 +19,23 @@ document.getElementById("demo").innerHTML="Hello ! "+person+
 
 
 }
-
-
 }
+
+document.getElementById('web-share-button').addEventListener('click', async () => {
+    if (navigator.share) {
+     try {
+     await navigator.share({
+     title: 'Check out this page',
+     text: 'This is a helath webpage I found!',
+     url: window.location.href
+     });
+ console.log('Successful share');
+ } catch (error) {
+ console.log('Error sharing:', error);
+}
+ } else {
+alert('Web Share API not supported on this browser.');
+    }
+});
+
 

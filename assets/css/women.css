@@ -252,3 +252,26 @@ img {
         padding: 0.5rem;
     }
 }
+#plane{
+    display:inline-flex;
+    margin:1rem;
+    padding:0;
+         
+    }
+    
+#plane img:hover{
+width:70px ;
+background-color: #adebfd;
+border-radius: 10px;
+  }
+ #plane img{
+     width:60px;
+    height:auto;
+ } 
+    @media(max-width:960px){
+     #plane img{
+    /* padding-top:1rem ; */
+     padding: 0%;
+            
+    }
+    }

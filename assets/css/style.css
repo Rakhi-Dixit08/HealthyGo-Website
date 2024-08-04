@@ -114,15 +114,6 @@ font-family: 'roboto';
 background-color: #E9F7F6;
 }
 
-
-/* main{
-/* background-color: #75baf1; */
-
-
-
-
-
-/* header styling */
 .header{
 background-color: #43c1f3;
 
@@ -280,9 +271,12 @@ margin:2rem 0;
 #features{
 display: flex;
 justify-content: space-evenly;
-margin:3rem 0;
+margin:3rem 1rem;
+
 
 }
+
+
  .card{
 width:18rem;
 
@@ -302,13 +296,21 @@ height:0;
 }   
 .carousel-inner h1{
     opacity:1;
-font-size: 1rem;
+font-size:1rem;
 
 
 }
 
+}
+
+@media(max-width:420px){
+.card-title{
+font-size:15px ;
 
 }
+}
+
+
 .card:hover{
     background-color:#d8f5da; 
     box-shadow: 0 5px #666;
@@ -345,7 +347,8 @@ border-radius: 4rem;
 display: flex;
 justify-content: space-evenly;
 
-margin-top: 1rem;
+/* margin-top: 1rem; */
+margin:1rem 2rem;
 }
 
 
@@ -408,7 +411,71 @@ padding:1rem 2rem;
 
 }
 
+/* Plane-top */
+#plane{
+    display:inline-flex;
+    margin:0;
+    padding:0;
+         
+    }
+      #plane img:hover{
+    width:70px ;
+    background-color: #adebfd;
+    border-radius: 10px;
+    }
+    #plane img{
+     width:60px;
+    height:auto;
+    
+    } 
+    @media(max-width:500px){
+     #plane img{
+        width:40px;
+        height:auto;
+        padding: 0%;
+            }
 
+}
+
+/* Share buttons  */
+
+.share-btns{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content:space-evenly;
+ margin:0 0.25rem;
+
+}
+
+
+.share-button, .web-share-button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #4fa0f7;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.web-share-button {
+    background-color: #19b63e;
+}
+.web-share-button:hover{
+font-size:17px ;
+color:#04090c;
+
+}
+#share{
+margin:3rem;
+text-align:center;
+background-color: #a8def3;
+border-radius: 10px;
+padding:1rem 0;
+
+
+}
 
 
 
