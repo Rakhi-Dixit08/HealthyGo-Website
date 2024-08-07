@@ -101,6 +101,8 @@ main {
     .sidebar ul li a{
     color:#264653;
     font-size: 1.5rem;
+    text-decoration: underline;
+    padding:0.75rem 0 ;
     
     
     }
@@ -145,12 +147,14 @@ article ul {
 
 article ul li a {
     color:#264653;
-    text-decoration: none;
+    text-decoration:underline;
+    font-size:1.50rem ;
+    padding:0.5rem;
 }
 
 article ul li a:hover {
     text-decoration: underline;
-    font-size: 1.50rem;
+    font-size:1.75rem;
     color: #3b67f5;
 }
 
@@ -254,6 +258,7 @@ img {
 }
 #plane{
     display:inline-flex;
+    justify-content: flex-start;
     margin:1rem;
     padding:0;
          
@@ -267,11 +272,15 @@ border-radius: 10px;
  #plane img{
      width:60px;
     height:auto;
+    padding:0.5rem;
+    margin:1rem 0;
  } 
     @media(max-width:960px){
      #plane img{
     /* padding-top:1rem ; */
-     padding: 0%;
+    padding:0.5rem;
+    margin:1rem 0;
+     /* padding: 0%; */
             
     }
     }

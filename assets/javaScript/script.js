@@ -10,12 +10,13 @@ offScreenMenu.classList.toggle('active');
 function myFunction(){
 
 let person=prompt("Please enter your name : ");
-let healthGoal=prompt("What is your health goal :");
+// let healthGoal=prompt("What is your health goal :");
 
 if(person!=null){
-document.getElementById("demo").innerHTML="Hello ! "+person+
-" we  are  happy  to  see  that  you  want  to  improve your "+healthGoal+
-".We  will  help  you  in  achieving  this. Stay  tunned."
+document.getElementById("demo").innerHTML="Hi! "+person+
+" , reach your health goals with HealthyGo! Elevate your fitness and well-being today. ";
+
+
 
 
 }

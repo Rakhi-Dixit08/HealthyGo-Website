@@ -95,8 +95,8 @@ padding:0.5rem 0 ;
 color:#0296d1;
 }
 .article-links {
-    text-decoration: none;
-    font-size:1.25rem; ;
+    text-decoration: underline;
+    font-size:1.30rem;
  
     }
 
@@ -279,15 +279,17 @@ article ul {
 article ul li a {
     color: #010e13;
 text-decoration: none;
+
 }
 
  article ul li a:hover {
-    text-decoration: underline;
+text-decoration: underline;
 } 
 
 
 #plane{
 display:inline-flex;
+justify-content: flex-start;
 margin:0;
 padding:0;
      
@@ -302,12 +304,16 @@ border-radius: 10px;
 #plane img{
  width:60px;
 height:auto;
+padding:0.5rem;
+margin:1rem 0;
 
 } 
 @media(max-width:960px){
  #plane img{
 /* padding-top:1rem ; */
- padding: 0%;
+padding:0.5rem;
+margin:1rem 0;
+ /* padding: 0%; */
         
 }
 }

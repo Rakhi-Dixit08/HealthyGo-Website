@@ -150,11 +150,15 @@ article ul {
 
 article ul li a {
     color: var(--primary-green);
-    text-decoration: none;
+    text-decoration: underline;
+    font-size:1.50rem ;
+    padding:1rem 0;
+   
 }
 
 article ul li a:hover {
-    text-decoration: underline;
+ text-decoration: underline;
+ font-size:1.60rem ;
 }
 
 .video-container {
@@ -178,6 +182,8 @@ color: #1a9b8c;
 .sidebar ul li a{
 color:#264653;
 font-size: 1.5rem;
+text-decoration: underline;
+
 
 
 }
@@ -268,6 +274,7 @@ font-size: 1.5rem;
 /* Plane top */
 #plane{
     display:inline-flex;
+    justify-content: flex-start;
     margin:1rem;
     padding:0;
          
@@ -281,12 +288,16 @@ font-size: 1.5rem;
     #plane img{
      width:60px;
     height:auto;
-    
+    padding:0.5rem;
+    margin:1rem 0;
+
     } 
     @media(max-width:960px){
      #plane img{
     /* padding-top:1rem ; */
-     padding: 0%;
+    padding:0.5rem;
+    margin:1rem 0;
+     /* padding: 0%; */
             
     }
 }
